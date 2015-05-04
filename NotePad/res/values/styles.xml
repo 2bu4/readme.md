@@ -1,4 +1,12 @@
 <resources>
+	  <style name="diaryRatingBar" parent="@android:style/Widget.RatingBar">
+		<item name="android:progressDrawable">@drawable/diary_ratingbar_full</item>
+		<item name="android:minHeight">48dip</item>
+  		<item name="android:maxHeight">48dip</item>
+	</style>
+	 <style name="TabStyle">
+        <item name="android:colorForeground">#FF6600</item>
+    </style>
 	<!--
         Base application theme, dependent on API level. This theme is replaced
         by AppBaseTheme from res/values-vXX/styles.xml on newer devices.

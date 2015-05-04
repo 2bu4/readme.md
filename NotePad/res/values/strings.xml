@@ -3,4 +3,26 @@
 	<string name="app_name">NotePad</string>
 	<string name="action_settings">Settings</string>
 	<string name="hello_world">Hello world!</string>
+	<string name="menu_config">设置</string>
+	<string name="menu_type">类型</string>
+	<string name="menu_about">关于</string>
+	<string name="menu_diary">日 志</string>
+	<string name="menu_thoughts">感  想</string>
+	<string name="confirm">确定</string>
+	<string name="menu_exit">退  出</string>
+	<string name="eventtype_title">类型：</string>
+	<string name="event_type_prompt">请选择事件类型</string>
+	<string name="timeitem_title">内容：</string>
+	<string name="timecount_title">耗时：</string>
+	<string name="hour">小时</string>
+	<string name="about">关于</string>
+	<string name="about_text">\
+		只有时间是平等的，更好地利用时间就能更好地创造生活、追求想要的幸福，记录下每天的点滴经历，方能留下
+		似水年华的印记。\n
+	</string>
+	<string name="minute">分钟</string>
+	<string name="rating_title">评分：</string>
+	<string name="view_diary">日志浏览</string>
+	<string name="title_activity_diary_new">DiaryNew</string>
+	<string name="title_activity_about">About</string>
 </resources>
