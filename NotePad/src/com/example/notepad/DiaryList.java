@@ -103,7 +103,7 @@ public class DiaryList extends ListActivity {
 	@Override
 	public void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
-		setContentView(R.layout.diary_list);
+		setContentView(R.layout.liary_list);
 		setTitle(getString(R.string.app_name) + "-" + getString(R.string.today_account));
 
 		ListView listView = (ListView) findViewById(android.R.id.list);

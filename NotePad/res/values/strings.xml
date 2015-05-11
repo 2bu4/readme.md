@@ -20,6 +20,9 @@
 		只有时间是平等的，更好地利用时间就能更好地创造生活、追求想要的幸福，记录下每天的点滴经历，方能留下
 		似水年华的印记。\n
 	</string>
+	<string name="type_del">删除</string>
+	<string name="today_account">今日事件</string>
+	<string name="no_diary">还没有记录，去写点什么吧...</string>
 	<string name="minute">分钟</string>
 	<string name="rating_title">评分：</string>
 	<string name="view_diary">日志浏览</string>

@@ -44,19 +44,22 @@ public final class R {
     }
     public static final class id {
         public static final int about_text=0x7f090000;
-        public static final int action_settings=0x7f090007;
+        public static final int action_settings=0x7f090009;
         public static final int confirm=0x7f090006;
         public static final int content=0x7f090002;
         public static final int event_type_spinner=0x7f090001;
         public static final int hour=0x7f090003;
         public static final int minute=0x7f090004;
         public static final int ratingbar=0x7f090005;
+        public static final int select_date=0x7f090007;
+        public static final int thoughts=0x7f090008;
     }
     public static final class layout {
         public static final int about=0x7f030000;
         public static final int activity_main=0x7f030001;
         public static final int diary=0x7f030002;
         public static final int diary_new=0x7f030003;
+        public static final int liary_list=0x7f030004;
     }
     public static final class menu {
         public static final int about=0x7f080000;
@@ -79,13 +82,16 @@ public final class R {
         public static final int menu_exit=0x7f060009;
         public static final int menu_thoughts=0x7f060007;
         public static final int menu_type=0x7f060004;
-        public static final int minute=0x7f060011;
-        public static final int rating_title=0x7f060012;
+        public static final int minute=0x7f060014;
+        public static final int no_diary=0x7f060013;
+        public static final int rating_title=0x7f060015;
         public static final int timecount_title=0x7f06000d;
         public static final int timeitem_title=0x7f06000c;
-        public static final int title_activity_about=0x7f060015;
-        public static final int title_activity_diary_new=0x7f060014;
-        public static final int view_diary=0x7f060013;
+        public static final int title_activity_about=0x7f060018;
+        public static final int title_activity_diary_new=0x7f060017;
+        public static final int today_account=0x7f060012;
+        public static final int type_del=0x7f060011;
+        public static final int view_diary=0x7f060016;
     }
     public static final class style {
         /** 
