@@ -73,7 +73,7 @@ public class MainActivity extends TabActivity {
 		
 		switch (item.getItemId()) {
 		case TYPE_ID:
-			Intent intent = new Intent(this,About.class);
+			Intent intent = new Intent(this,TypeActivity.class);
 			MainActivity.this.startActivity(intent);
 			return true;
 		case INSERT_ID:
@@ -87,7 +87,7 @@ public class MainActivity extends TabActivity {
 			MainActivity.this.startActivity(intent);
 			return true;
 		case CONFIG_ID:
-			intent = new Intent(this,About.class);
+			intent = new Intent(this,Settings.class);
 			MainActivity.this.startActivity(intent);
 			return true;
 		case EXIT_ID:
@@ -109,7 +109,7 @@ public class MainActivity extends TabActivity {
 		}
 
 		private void createThoughts() {
-			Intent i = new Intent(this, About.class);
+			Intent i = new Intent(this, ThoughtsActivity.class);
 			TextView mSelectDateView = (TextView) getTabHost().getCurrentView().findViewById(R.id.select_date);
 			if(mSelectDateView!=null)
 			{
