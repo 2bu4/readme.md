@@ -16,7 +16,7 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
 
-public class ThoughtsActivity extends Activity {
+public class ToughtsActivity extends Activity {
 
 	private String mSelectDate;
 
@@ -27,7 +27,7 @@ public class ThoughtsActivity extends Activity {
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
-		setContentView(R.layout.thoughts);
+		setContentView(R.layout.toughts);
 		setTitle(getString(R.string.app_name) + "-"
 				+ getString(R.string.menu_thoughts));
 
@@ -52,7 +52,7 @@ public class ThoughtsActivity extends Activity {
 			public void onClick(View arg0) {
 				String introspection = mIntrospectionEdit.getText().toString();
 				if (introspection == null || "".equals(introspection.trim())) {
-					TimeDiary.dailog("���ݲ���Ϊ�գ�",ThoughtsActivity.this);
+					TimeDiary.dailog("���ݲ���Ϊ�գ�",ToughtsActivity.this);
 					return;
 				}
 				setResult(RESULT_OK);
