@@ -7,6 +7,8 @@
 	<string name="menu_type">类型</string>
 	<string name="menu_about">关于</string>
 	<string name="menu_diary">日 志</string>
+	<string name="type_save">保存</string>
+	<string name="cancel">返回</string>
 	<string name="menu_thoughts">感  想</string>
 	<string name="confirm">确定</string>
 	<string name="menu_exit">退  出</string>
@@ -30,4 +32,6 @@
 	<string name="title_activity_about">About</string>
 	<string name="title_activity_settings">Settings</string>
 	<string name="title_activity_toughts">ToughtsActivity</string>
+	<string name="title_activity_type">TypeActivity</string>
+	<string name="title_activity_thoughts">ThoughtsActivity</string>
 </resources>

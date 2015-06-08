@@ -27,5 +27,13 @@
 			android:name="com.example.notepad.ToughtsActivity"
 			android:label="@string/title_activity_toughts" >
 		</activity>
+		<activity
+			android:name="com.example.notepad.TypeActivity"
+			android:label="@string/title_activity_type" >
+		</activity>
+		<activity
+			android:name="com.example.notepad.ThoughtsActivity"
+			android:label="@string/title_activity_thoughts" >
+		</activity>
 	</application>
 </manifest>

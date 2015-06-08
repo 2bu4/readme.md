@@ -48,66 +48,81 @@ public final class R {
     }
     public static final class id {
         public static final int about_text=0x7f0a0000;
-        public static final int action_settings=0x7f0a000d;
-        public static final int confirm=0x7f0a0006;
-        public static final int content=0x7f0a0002;
-        public static final int event_type_spinner=0x7f0a0001;
-        public static final int hour=0x7f0a0003;
-        public static final int introspection=0x7f0a000c;
-        public static final int minute=0x7f0a0004;
-        public static final int ratingbar=0x7f0a0005;
-        public static final int row_content=0x7f0a0007;
-        public static final int row_count_time=0x7f0a0009;
-        public static final int row_type=0x7f0a0008;
-        public static final int select_date=0x7f0a000a;
-        public static final int thoughts=0x7f0a000b;
+        public static final int action_settings=0x7f0a0013;
+        public static final int cancelbtn=0x7f0a0006;
+        public static final int confirm=0x7f0a0003;
+        public static final int content=0x7f0a000a;
+        public static final int delbtn=0x7f0a0005;
+        public static final int editType=0x7f0a0007;
+        public static final int event_type_spinner=0x7f0a0009;
+        public static final int hour=0x7f0a000b;
+        public static final int introspection=0x7f0a0002;
+        public static final int listTextView1=0x7f0a0012;
+        public static final int minute=0x7f0a000c;
+        public static final int ratingbar=0x7f0a000d;
+        public static final int row_content=0x7f0a000e;
+        public static final int row_count_time=0x7f0a0010;
+        public static final int row_type=0x7f0a000f;
+        public static final int savebtn=0x7f0a0004;
+        public static final int select_date=0x7f0a0001;
+        public static final int thoughts=0x7f0a0011;
+        public static final int typeListView=0x7f0a0008;
     }
     public static final class layout {
         public static final int about=0x7f030000;
         public static final int activity_main=0x7f030001;
-        public static final int diary=0x7f030002;
-        public static final int diary_new=0x7f030003;
-        public static final int diary_row=0x7f030004;
-        public static final int liary_list=0x7f030005;
-        public static final int settings=0x7f030006;
-        public static final int toughts=0x7f030007;
+        public static final int activity_thoughts=0x7f030002;
+        public static final int activity_type=0x7f030003;
+        public static final int diary=0x7f030004;
+        public static final int diary_new=0x7f030005;
+        public static final int diary_row=0x7f030006;
+        public static final int liary_list=0x7f030007;
+        public static final int settings=0x7f030008;
+        public static final int toughts=0x7f030009;
+        public static final int typeitem=0x7f03000a;
     }
     public static final class menu {
         public static final int about=0x7f090000;
         public static final int diary_new=0x7f090001;
         public static final int main=0x7f090002;
         public static final int settings=0x7f090003;
-        public static final int toughts=0x7f090004;
+        public static final int thoughts=0x7f090004;
+        public static final int toughts=0x7f090005;
+        public static final int type=0x7f090006;
     }
     public static final class string {
-        public static final int about=0x7f07000f;
-        public static final int about_text=0x7f070010;
+        public static final int about=0x7f070011;
+        public static final int about_text=0x7f070012;
         public static final int action_settings=0x7f070001;
         public static final int app_name=0x7f070000;
-        public static final int confirm=0x7f070008;
-        public static final int event_type_prompt=0x7f07000b;
-        public static final int eventtype_title=0x7f07000a;
+        public static final int cancel=0x7f070008;
+        public static final int confirm=0x7f07000a;
+        public static final int event_type_prompt=0x7f07000d;
+        public static final int eventtype_title=0x7f07000c;
         public static final int hello_world=0x7f070002;
-        public static final int hour=0x7f07000e;
+        public static final int hour=0x7f070010;
         public static final int menu_about=0x7f070005;
         public static final int menu_config=0x7f070003;
         public static final int menu_diary=0x7f070006;
-        public static final int menu_exit=0x7f070009;
-        public static final int menu_thoughts=0x7f070007;
+        public static final int menu_exit=0x7f07000b;
+        public static final int menu_thoughts=0x7f070009;
         public static final int menu_type=0x7f070004;
-        public static final int minute=0x7f070014;
-        public static final int no_diary=0x7f070013;
-        public static final int notice_title=0x7f070017;
-        public static final int rating_title=0x7f070015;
-        public static final int timecount_title=0x7f07000d;
-        public static final int timeitem_title=0x7f07000c;
-        public static final int title_activity_about=0x7f070019;
-        public static final int title_activity_diary_new=0x7f070018;
-        public static final int title_activity_settings=0x7f07001a;
-        public static final int title_activity_toughts=0x7f07001b;
-        public static final int today_account=0x7f070012;
-        public static final int type_del=0x7f070011;
-        public static final int view_diary=0x7f070016;
+        public static final int minute=0x7f070016;
+        public static final int no_diary=0x7f070015;
+        public static final int notice_title=0x7f070019;
+        public static final int rating_title=0x7f070017;
+        public static final int timecount_title=0x7f07000f;
+        public static final int timeitem_title=0x7f07000e;
+        public static final int title_activity_about=0x7f07001b;
+        public static final int title_activity_diary_new=0x7f07001a;
+        public static final int title_activity_settings=0x7f07001c;
+        public static final int title_activity_thoughts=0x7f07001f;
+        public static final int title_activity_toughts=0x7f07001d;
+        public static final int title_activity_type=0x7f07001e;
+        public static final int today_account=0x7f070014;
+        public static final int type_del=0x7f070013;
+        public static final int type_save=0x7f070007;
+        public static final int view_diary=0x7f070018;
     }
     public static final class style {
         /** 
